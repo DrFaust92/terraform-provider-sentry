@@ -143,6 +143,7 @@ func (p *SentryProvider) Resources(ctx context.Context) []func() resource.Resour
 		NewAllProjectsSpikeProtectionResource,
 		NewClientKeyResource,
 		NewExternalTeamResource,
+		NewExternalUserResource,
 		NewIntegrationOpsgenie,
 		NewIntegrationPagerDuty,
 		NewIssueAlertResource,
